@@ -13,12 +13,12 @@ This repository contains hands-on DevOps implementations and automation practice
 - ✅ **Azure DevOps Pipelines (YAML)**: Optional examples using Azure Pipelines.
 
 ## 📁 Folder Structure
-/azure-cli-scripts → Shell scripts for provisioning and config
-/bicep-templates → Modern IaC using Bicep
-/arm-templates → Legacy IaC with ARM JSON
-/github-actions → GitHub Actions CI/CD workflows
-/aks-deployment → Kubernetes YAML + AKS integration
-/cloud-init → Examples for VM bootstrap
+  /azure-cli-scripts → Shell scripts for provisioning and config
+  /bicep-templates → Modern IaC using Bicep
+  /arm-templates → Legacy IaC with ARM JSON
+  /github-actions → GitHub Actions CI/CD workflows
+  /aks-deployment → Kubernetes YAML + AKS integration
+  /cloud-init → Examples for VM bootstrap
 
 ## 🛠 Requirements
 
