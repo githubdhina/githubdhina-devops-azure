@@ -11,3 +11,33 @@ This repository contains hands-on DevOps implementations and automation practice
 - ✅ **AKS (Azure Kubernetes Service)**: Cluster provisioning and deployment samples.
 - ✅ **Cloud-init Examples**: Automate VM configuration on creation using cloud-init.
 - ✅ **Azure DevOps Pipelines (YAML)**: Optional examples using Azure Pipelines.
+
+## 📁 Folder Structure
+/azure-cli-scripts → Shell scripts for provisioning and config
+/bicep-templates → Modern IaC using Bicep
+/arm-templates → Legacy IaC with ARM JSON
+/github-actions → GitHub Actions CI/CD workflows
+/aks-deployment → Kubernetes YAML + AKS integration
+/cloud-init → Examples for VM bootstrap
+
+## 🛠 Requirements
+
+- Azure CLI (`az`)
+- Bicep CLI (or use built-in in `az`)
+- Git
+- GitHub account (for CI/CD workflows)
+
+## 🧪 Usage
+
+Clone the repo:
+```bash
+git clone https://github.com/<yourusername>/githubdhina-devops-azure.git
+
+cd azure-cli-scripts
+./create-vm.ps1
+
+🙌 Contribution
+Pull requests and feedback are welcome. Let's build better cloud-native infrastructure together!
+
+📜 License
+This project is licensed under the MIT License.
