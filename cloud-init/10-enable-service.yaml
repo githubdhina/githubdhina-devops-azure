@@ -1,0 +1,4 @@
+﻿#cloud-config
+bootcmd:
+  - systemctl enable nginx
+  - systemctl start nginx

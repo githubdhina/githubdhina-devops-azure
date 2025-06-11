@@ -1,0 +1,3 @@
+﻿#cloud-config
+mounts:
+  - [ "/dev/sdc1", "/mnt/data", "auto", "defaults,nofail", "0", "2" ]

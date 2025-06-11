@@ -1,0 +1,6 @@
+﻿#cloud-config
+write_files:
+  - path: /etc/motd
+    content: |
+      Welcome to your Azure VM!
+      Managed by cloud-init

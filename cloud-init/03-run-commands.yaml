@@ -1,0 +1,4 @@
+﻿#cloud-config
+runcmd:
+  - echo "Hello from cloud-init" > /tmp/welcome.txt
+  - systemctl restart sshd

@@ -1,0 +1,5 @@
+﻿#cloud-config
+users:
+  - name: azureuser
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash

@@ -1,0 +1,33 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sqlServerName": {
+      "type": "string",
+      "defaultValue": "mySqlServer123",
+      "metadata": { "description": "SQL Server Name" }
+    },
+    "administratorLogin": {
+      "type": "string",
+      "defaultValue": "sqladmin",
+      "metadata": { "description": "Administrator login" }
+    },
+    "administratorLoginPassword": {
+      "type": "securestring",
+      "metadata": { "description": "Administrator password" }
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Sql/servers",
+      "apiVersion": "2021-02-01-preview",
+      "name": "[parameters('sqlServerName')]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "administratorLogin": "[parameters('administratorLogin')]",
+        "administratorLoginPassword": "[parameters('administratorLoginPassword')]",
+        "version": "12.0"
+      }
+    }
+  ]
+}
