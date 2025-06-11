@@ -35,6 +35,7 @@ git clone https://github.com/<yourusername>/githubdhina-devops-azure.git
 
 cd azure-cli-scripts
 ./create-vm.ps1
+```
 
 🙌 Contribution
 Pull requests and feedback are welcome. Let's build better cloud-native infrastructure together!
