@@ -37,8 +37,8 @@ cd azure-cli-scripts
 ./create-vm.ps1
 ```
 
-🙌 Contribution
+## 🙌 Contribution:
 Pull requests and feedback are welcome. Let's build better cloud-native infrastructure together!
 
-📜 License
+## 📜 License:
 This project is licensed under the MIT License.
